@@ -4,9 +4,9 @@
 #include <Windows.h>
 #include <vector>
 #include <fstream>
-#include "Person.h"
-#include "Company.h"
-#include "Logs.h"
+#include "./Headers/Person.h"
+#include "./Headers/Company.h"
+#include "./Headers/Logs.h"
 
 
 std::vector<std::string> GetFilesInDirectoryWithExt(std::string folder, std::string extension)
